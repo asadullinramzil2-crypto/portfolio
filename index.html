@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="40x40"
+    href="./assets/favicons/favicon.png"
+  />
+  <link rel="manifest" href="./assets/favicons/site.webmanifest" />
+
+  <title>Асадуллин Рамзиль | CRM-маркетолог</title>
+
+  <link rel="stylesheet" href="./styles/main.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <header id="header" class="header" data-js-overlay-menu="">
+    <div class="header__inner container">
+      <a class="header__logo logo" href="#header">
+        <img
+          src="./assets/icons/logo.svg"
+          alt="Logo"
+          width="67"
+          height="48"
+          loading="eager"
+          
+        />
+      </a>
+      <dialog
+        class="header__overlay-menu-dialog"
+        data-js-overlay-menu-dialog=""
+      >
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#about" data-js-overlay-menu-link>Обо мне</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link " href="#cases" data-js-overlay-menu-link>Кейсы</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#tool" data-js-overlay-menu-link>Навыки</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#footer" data-js-overlay-menu-link>Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </dialog>
+
+      <button
+        class="header__burger-button burger-button visible-mobile"
+        type="button"
+        aria-label="Open Menu"
+        title="Open Menu"
+        data-js-overlay-menu-burger-button
+      >
+        <svg
+          class="burger-button__svg"
+          width="30"
+          height="30"
+          viewBox="0 0 100 100"
+        >
+          <path
+            class="burger-button__line burger-button__line--1"
+            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+          />
+          <path
+            class="burger-button__line burger-button__line--2"
+            d="M 20,50 H 80"
+          />
+          <path
+            class="burger-button__line burger-button__line--3"
+            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+          />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero" data-aos="fade-up">
+      <div class="hero__inner container">
+        <div class="hero__text">
+          <h1 class="hero__title">Рамзиль Асадуллин<br> CRM-маркетолог</h1>
+          <p class="hero__info h4">Email Marketing • Email Design • HTML Email • Copywriting </p>
+          <p class="hero__description">Проектирую CRM-коммуникации полного цикла: анализирую, создаю контент и дизайн, верстаю письма и настраиваю автоматизированные сценарии.</p>
+          <a href="#cases" class="hero__button button">Посмотреть портфолио <span class="button__icon"><img src="./assets/icons/arrow.svg" alt="" width="27" loading="lazy"></span></a>
+          <p class="hero__additional h4"><span class="hero__point hero__point-1">•</span> &nbsp;&nbsp;Открыт к новым возможностям&nbsp;&nbsp;&nbsp;&nbsp; <span class="hero__point hero__point-2">•</span>&nbsp;&nbsp;Работаю&nbsp;удаллёно</p>
+        </div>
+        <div class="hero__image">
+          <img src="./assets/image/path.png" alt="Путь клиента" width="486px">
+        </div>
+      </div>
+    </section>
+
+    <section id="advantage" class="advantage" data-aos="fade-up">
+      <div class="advantage__inner container">
+        <ul class="advantage__cards">
+          <li class="advantage__card">
+            <img src="./assets/icons/telegram.svg" alt="" loading="lazy" class="advantage__icon" width="35px">
+            <div class="advantage__text">
+              <h2 class="advantage__title">125+</h2>
+              <p class="advantage__description">Email-писем</p>
+            </div>
+          </li>
+          <li class="advantage__card">
+            <img src="./assets/icons/people.svg" alt="" loading="lazy" class="advantage__icon" width="35px">
+            <div class="advantage__text">
+              <h2 class="advantage__title">90 000+</h2>
+              <p class="advantage__description">Контактов в базе</p>
+            </div>
+          </li>
+          <li class="advantage__card">
+            <img src="./assets/icons/anlitics.svg" alt="" loading="lazy" class="advantage__icon" width="35px">
+            <div class="advantage__text">
+              <h2 class="advantage__title">35%</h2>
+              <p class="advantage__description">Рост выручки</p>
+            </div>
+          </li>
+          <li class="advantage__card">
+            <img src="./assets/icons/part.svg" alt="" loading="lazy" class="advantage__icon" width="35px">
+            <div class="advantage__text">
+              <h2 class="advantage__title">18%</h2>
+              <p class="advantage__description">Cнижение оттока</p>
+            </div>
+          </li>
+          <li class="advantage__card">
+            <img src="./assets/icons/automation.svg" alt="" loading="lazy" class="advantage__icon" width="35px">
+            <div class="advantage__text">
+              <h2 class="advantage__title">25+</h2>
+              <p class="advantage__description">Автоматизации</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="about" data-aos="fade-up">
+      <div class="about__inner container">
+        <h2 class="about__title">Обо мне</h2>
+        <div class="about__wrapper">
+          <p class="about__text">
+Уже более года работаю в CRM-маркетинге, специализируясь на email-коммуникациях, автоматизации и построении клиентских коммуникаций.
+<br><br>
+Веду проекты полностью: анализ, сценарии, копирайтинг, дизайн, У
+HTML-верстка писем, автоматизации и аналитика.
+<br><br>
+Благодаря опыту frontend-разработки понимаю техническую сторону продукта и могу самостоятельно реализовывать большинство CRM-задач.
+<br><br>
+Постоянно изучаю зарубежные практики CRM-маркетинга и применяю лучшие решения в работе.
+        </p>
+        <div class="about__advantages">
+          <ul class="about__column about__column-1">
+            <li class="about__advantage">
+              <img src="./assets/icons/brain.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Аналитическое мышление</p>
+            </li>
+            <li class="about__advantage">
+              <img src="./assets/icons/person.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Высокая автономность</p>
+            </li>
+            <li class="about__advantage">
+              <img src="./assets/icons/clock.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Жесткая дисциплина</p>
+            </li>
+            <li class="about__advantage">
+              <img src="./assets/icons/rocket.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Быстрая обучаемость</p>
+            </li>
+            <li class="about__advantage">
+              <img src="./assets/icons/world.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Изучаю зарубежный CRM</p>
+            </li>
+          </ul>
+          <ul class="about__column about__column-2">
+            <li class="about__advantage">
+              <img src="./assets/icons/shield.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Ответсвенность</p>
+            </li>
+            <li class="about__advantage">
+              <img src="./assets/icons/mash.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Внимание к деталям</p>
+            </li>
+            <li class="about__advantage">
+              <img src="./assets/icons/chat.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Коммуникабельность</p>
+            </li>
+            <li class="about__advantage">
+              <img src="./assets/icons/setting.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Автоматизирую рутинну</p>
+            </li>
+            <li class="about__advantage">
+              <img src="./assets/icons/calendar.svg" alt="" class="about__icon" width="25" loading="lazy">
+              <p class="about__description">Соблюдаю сроки</p>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cases" class="cases" data-aos="fade-up">
+      <div class="cases__inner container">
+        <h2 class="cases__title">Кейсы</h2>
+        <div class="cases__wrapper">
+          <ul class="cases__cases">
+            <li class="cases__case">
+              <img src="./assets/portfolio/1_title.jpg" alt="" class="cases__image" width="367" height="212" loading="lazy">
+              <div class="cases__subtitle">
+                <img src="./assets/icons/case.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Задача</h4>
+              </div>
+              <p class="cases__description">Повысить вовлеченность новых подписчикови конверсию в первую покупку</p>
+              <div class="cases__subtitle">
+                <img src="./assets/icons/task.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Результат</h4>
+              </div>
+              <div class="cases__result">
+                <div class="cases__column cases__column-1">
+                  <h3 class="cases__result-title">+30%</h3>
+                  <p class="cases__result-description">Open Rate</p>
+                </div>
+                <div class="cases__column cases__column-2">
+                  <h3 class="cases__result-title">+12%</h3>
+                  <p class="cases__result-description">Click-Through Rate</p>
+                </div>
+                <div class="cases__column cases__column-3">
+                  <h3 class="cases__result-title">329K</h3>
+                  <p class="cases__result-description">Выручка</p>
+                </div>
+              </div>
+              <div class="cases__subtitle">
+                <img src="./assets/icons/Tools.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Инструменты</h4>
+              </div>
+              <div class="cases__badges">
+                <div class="cases__badge">Unisender</div>
+                <div class="cases__badge">Figma</div>
+                <div class="cases__badge">HTML</div>
+                <div class="cases__badge">CSS</div>
+              </div>
+              <button class="cases__link" data-images="./assets/portfolio/1_1.jpg, ./assets/portfolio/1_2.jpg, ./assets/portfolio/1_3.jpg, ./assets/portfolio/1_4.jpg, ./assets/portfolio/1_5.jpg">
+                Смотреть кейс <span><img src="./assets/icons/arrow-green.svg" alt="" width="14"></span>
+              </button>
+            </li>
+            <li class="cases__case">
+              <img src="./assets/portfolio/2_title.jpg" alt="" class="cases__image" width="367" loading="lazy">
+              <div class="cases__subtitle">
+                <img src="./assets/icons/case.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Задача</h4>
+              </div>
+              <p class="cases__description">Вернуть пользователей, которые добавили товары в корзину, но не завершили покупку</p>
+              <div class="cases__subtitle">
+                <img src="./assets/icons/task.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Результат</h4>
+              </div>
+              <div class="cases__result">
+                <div class="cases__column cases__column-1">
+                  <h3 class="cases__result-title">+35%</h3>
+                  <p class="cases__result-description">Open Rate</p>
+                </div>
+                <div class="cases__column cases__column-2">
+                  <h3 class="cases__result-title">+9%</h3>
+                  <p class="cases__result-description">Click-Through Rate</p>
+                </div>
+                <div class="cases__column cases__column-3">
+                  <h3 class="cases__result-title">687K</h3>
+                  <p class="cases__result-description">Выручка</p>
+                </div>
+              </div>
+              <div class="cases__subtitle">
+                <img src="./assets/icons/Tools.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Инструменты</h4>
+              </div>
+              <div class="cases__badges">
+                <div class="cases__badge">Mindbox</div>
+                <div class="cases__badge">Figma</div>
+                <div class="cases__badge">HTML</div>
+                <div class="cases__badge">CSS</div>
+              </div>
+              <button class="cases__link" data-images="./assets/portfolio/2_1.jpg, ./assets/portfolio/2_2.jpg, ./assets/portfolio/2_3.jpg, ./assets/portfolio/2_4.jpg, ./assets/portfolio/2_5.jpg">
+                Смотреть кейс <span><img src="./assets/icons/arrow-green.svg" alt="" width="14"></span>
+              </button>
+            </li>
+            <li class="cases__case">
+              <img src="./assets/portfolio/3_title.jpg" alt="" class="cases__image" width="367" loading="lazy">
+              <div class="cases__subtitle">
+                <img src="./assets/icons/case.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Задача</h4>
+              </div>
+              <p class="cases__description">Повысить активность клиентов и увеличить повторные продажи.</p>
+              <div class="cases__subtitle">
+                <img src="./assets/icons/task.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Результат</h4>
+              </div>
+              <div class="cases__result">
+                <div class="cases__column cases__column-1">
+                  <h3 class="cases__result-title">+40%</h3>
+                  <p class="cases__result-description">Open Rate</p>
+                </div>
+                <div class="cases__column cases__column-2">
+                  <h3 class="cases__result-title">+14%</h3>
+                  <p class="cases__result-description">Click-Through Rate</p>
+                </div>
+                <div class="cases__column cases__column-3">
+                  <h3 class="cases__result-title">140K</h3>
+                  <p class="cases__result-description">Выручка</p>
+                </div>
+              </div>
+              <div class="cases__subtitle">
+                <img src="./assets/icons/Tools.svg" alt="" class="cases__icon" width="20" loading="lazy">
+                <h4 class="cases__text">Инструменты</h4>
+              </div>
+              <div class="cases__badges">
+                <div class="cases__badge">Sendsay</div>
+                <div class="cases__badge">HTML</div>
+                <div class="cases__badge">CSS</div>
+                <div class="cases__badge">Figma</div>
+              </div>
+              <button class="cases__link" data-images="./assets/portfolio/3_1.jpg, ./assets/portfolio/3_2.jpg, ./assets/portfolio/3_3.jpg, ./assets/portfolio/3_4.jpg, ./assets/portfolio/3_5.jpg">
+                Смотреть кейс <span><img src="./assets/icons/arrow-green.svg" alt="" width="14"></span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="tool" class="tool" data-aos="fade-up">
+      <div class="tool__inner container">
+        <h2 class="tool__title">Инструменты и стек</h2>
+        <div class="tool__wrapper">
+          <ul class="tool__badges">
+            <li class="tool__badge">
+              <img src="./assets/badges/mindbox.svg" alt="Mindbox" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Mindbox</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/unisender.svg" alt="Unisender" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Unisender</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/sendsay.svg" alt="Sendsay" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Sendsay</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/bitrix24.svg" alt="Битрикс24" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Битрикс24</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/email.svg" alt="Email" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Email</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/sms.svg" alt="SMS" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">SMS</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/inapp.svg" alt="In-App" class="tool__icon" loading="lazy" width="16">
+              <p class="tool__text">In-App</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/push.svg" alt="Push" class="tool__icon" loading="lazy" width="22">
+              <p class="tool__text">Push</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/whatsApp.svg" alt="WhatsApp" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">WhatsApp</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/telegram.svg" alt="Telegram" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Telegram</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/max.svg" alt="MAX" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">MAX</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/html.svg" alt="HTML" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">HTML</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/css.svg" alt="CSS" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">CSS</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/javascript.svg" alt="JavaScript" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">JavaScript</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/sql.svg" alt="SQL" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">SQL</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/git.svg" alt="Git" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Git</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/figma.svg" alt="Figma" class="tool__icon" loading="lazy" width="16">
+              <p class="tool__text">Figma</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/excel.svg" alt="Excel" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Excel</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/docs.svg" alt="Google Sheets" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Google Sheets</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/analytics.svg" alt="Google Analytics" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Google Analytics</p>
+            </li>
+            <li class="tool__badge">
+              <img src="./assets/badges/yandex.svg" alt="Яндекс Метрика" class="tool__icon" loading="lazy" width="25">
+              <p class="tool__text">Яндекс Метрика</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="certificates" data-aos="fade-up">
+  <div class="certificates__inner container">
+    <div class="certificates__wrapper">
+      <h2 class="tool__title">Сертификат</h2>
+      <div class="certificates__list">
+
+      <button type="button" class="certificates__item" data-images="./assets/image/course-1.svg">
+        <div class="certificates__content">
+          <h3 class="certificates__title">Mindbox</h3>
+          <p class="certificates__text">Сертификат о прохождении курса «Автоматизация Маркетинга»</p>
+        </div>
+        <div class="certificates__image-wrapper">
+          <img src="./assets/image/course-1.svg" alt="Сертификат Mindbox" width="70" class="certificates__image" loading="lazy">
+        </div>
+      </button>
+
+      <button type="button" class="certificates__item" data-images="./assets/image/course-2.svg">
+        <div class="certificates__content">
+          <h3 class="certificates__title">Unisender</h3>
+          <p class="certificates__text">Сертификат о прохождении курса «Email-маркетолог»</p>
+        </div>
+        <div class="certificates__image-wrapper">
+          <img src="./assets/image/course-2.svg" alt="Сертификат Unisender" width="120" class="certificates__image" loading="lazy">
+        </div>
+      </button>
+
+      <button type="button" class="certificates__item" data-images="./assets/image/course-3.svg">
+        <div class="certificates__content">
+          <h3 class="certificates__title">Битрикс24</h3>
+          <p class="certificates__text">Сертификат о прохождении курса «Crm-маркетолог»</p>
+        </div>
+        <div class="certificates__image-wrapper">
+          <img src="./assets/image/course-3.svg" alt="Сертификат Битрикс24" width="70" class="certificates__image" loading="lazy">
+        </div>
+      </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer__inner container">
+<div class="footer__info">
+      <h3 class="footer__title">Открыт к новым возможностям</h3>
+      <p class="footer__description">
+        Готов приносить бизнесу измеримые результаты через стратегический CRM-маркетинг.
+      </p>
+    </div>
+
+    <ul class="footer__contacts">
+      
+      <li class="footer__contact-item">
+        <img src="./assets/icons/email.svg" alt="" class="footer__contact-icon" width="24" loading="lazy">
+        <div class="footer__contact-content">
+          <span class="footer__contact-label">Email</span>
+          <a href="mailto:asadullinramzil2@gmail.com" class="footer__contact-link">asadullinramzil2@gmail.com</a>
+        </div>
+      </li>
+
+      <li class="footer__contact-item">
+        <img src="./assets/icons/telegram.svg" alt="" class="footer__contact-icon" width="24" loading="lazy">
+        <div class="footer__contact-content">
+          <span class="footer__contact-label">Telegram</span>
+          <a href="https://t.me/ramzilasadullin" target="_blank" rel="noopener noreferrer" class="footer__contact-link">https://t.me/ramzilasadullin</a>
+        </div>
+      </li>
+
+    </ul>
+    </div>
+  </footer>
+
+
+<div id="image-modal" class="modal">
+  <button class="modal__close" aria-label="Закрыть окно">&times;</button>
+  <div class="modal__scroll-container">
+    <div class="modal__gallery" id="modal-gallery">
+      
+    </div>
+  </div>
+</div>
+
+
+<script>
+  AOS.init();
+</script>
+<script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
