@@ -433,7 +433,7 @@ a[class] {
   margin: 25px 0 30px;
 }
 .hero__description {
-  max-width: 560px;
+  max-width: 570px;
   font-size: clamp(0.875rem, 0.745rem + 0.5333333333vw, 1.125rem);
   line-height: 1.6;
 }
